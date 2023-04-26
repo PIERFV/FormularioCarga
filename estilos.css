@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    max-width: 100%;
+    height: 400px;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.contenedor1{
+    margin: 200px auto;
+    width: fit-content;
+}
+
+form{
+    background-color: rgb(255, 247, 238);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    padding: 40px 0px;
+}
+
+.imgperfil{
+    width: 150px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+h1{
+    margin: auto;
+    width: fit-content;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.contenerdorform{
+    margin: 0px 50px;  
+}
+
+
+input{
+    border: none;
+    font-size: 15px;
+    padding: 15px 0px;
+    width: 100%;
+    border-bottom: solid 1px rgb(188, 188, 188);
+    background: none;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.texto{
+    margin: 40px auto 0px;
+    width: fit-content;
+    color: gray;
+    font-size: 15px;
+}
+
+.texto a{
+    color: rgba(12,0,255);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.texto2{
+    margin: 20px auto;
+    width: fit-content;
+    color: gray;
+    font-size: 15px;
+}
+
+.texto2 a{
+    color: rgba(252,70,107,1);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+button{
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
